@@ -1,7 +1,8 @@
 {
   "semi": false,
   "singleQuote": true,
-  "trailingComma": "none", 
+  "trailingComma": "none",
   "printWidth": 80,
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "endOfLine": "crlf"
 }

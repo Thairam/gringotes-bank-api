@@ -8,7 +8,7 @@ export class AccountsService {
   constructor(
     @InjectRepository(Account)
     private readonly accountRepository: Repository<Account>
-  ) { }
+  ) {}
 
   async createAccount(ownerId: number): Promise<Account> {
     const newAccount = this.accountRepository.create({
